@@ -1,3 +1,4 @@
+import React from "react";
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import {
   SafeAreaView,
@@ -19,7 +20,6 @@ export default function App() {
         <View style={styles.list}>
           <Text>List</Text>
         </View>
-
       </SafeAreaView>
       <ExpoStatusBar style="auto" />
     </>
